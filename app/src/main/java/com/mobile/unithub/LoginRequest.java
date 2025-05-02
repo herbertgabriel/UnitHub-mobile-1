@@ -2,14 +2,14 @@ package com.mobile.unithub;
 
 public class LoginRequest {
     private String email;
-    private String senha;
+    private String password; // Alterado de "senha" para "password"
 
-    public LoginRequest(String email, String senha) {
+    public LoginRequest(String email, String password) {
         this.email = email;
-        this.senha = senha;
+        this.password = password;
     }
 
     // Getters (opcional, mas recomendado)
     public String getEmail() { return email; }
-    public String getSenha() { return senha; }
+    public String getPassword() { return password; }
 }
